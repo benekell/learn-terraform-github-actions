@@ -12,7 +12,7 @@ terraform {
   required_version = "~> 1.0"
 
   backend "remote" {
-    organization = " benekell-lab-1"
+    organization = "benekell-lab-1"
 
     workspaces {
       name = "demo-github-actions"
